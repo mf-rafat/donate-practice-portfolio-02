@@ -3,23 +3,49 @@
     padding: 0;
 }
 
+.main-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
 /* ----------------------
 common css design ?
 ------------------------*/
 
-.container {
-    
-}
+
 
 .btn-primary {
-    width: 180px;
+    /* width: 180px;  */
     font-size: 20px;
     font-weight: 600;
     padding: 16px 12px;
+    margin: 0 auto;
     color: #fff;
     background-color: #FF5959;
 }
 
+.section-title {
+    color: #121212;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-intro {
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 375px;
+}
+
+.planing-intro {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px auto;
+}
 
 /* ----------------------
 header part section ?
@@ -27,11 +53,9 @@ header part section ?
 .header-banner {
     max-width: 100%;
     height: 669px;
-
     background-image: url(./images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     opacity: 0.9;
     text-align: center;
 }
@@ -41,9 +65,132 @@ header part section ?
     font-size: 65px;
     font-weight: 700;
     padding-top: 150px;
+
 }
 
 .header-intro {
     color: #fff;
-    margin: 50px 300px;
+    margin: 50px 375px;
+}
+
+/* <!-- ------------------
+            OUr donate Today
+        -----------------------> */
+
+.donation {
+    text-align: center;
+    margin: 130px auto;
+}
+
+
+.ammount-of-money {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 375px;
+}
+
+.money {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+    padding: 30px;
+
+}
+
+.others-ammount {
+    color: #B3B3B3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.horizontal-rule {
+
+    margin: 60px 375px;
+}
+
+/* < !--=----------------------
+
+            
+OUR Donate plan
+
+---------------------------------> */
+.donation-plan {}
+
+.all-planing {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 0px 150px;
+}
+
+.plan {
+    width: 360px;
+    padding: 30px 23px;
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10)
+}
+
+.plan>li {
+    list-style: none;
+}
+
+.planing-title {
+    margin-top: 20px;
+}
+
+/* <!-- ----------------
+    
+    your Donation 
+
+--------------------> */
+
+.container {
+    display: flex;
+    gap: 100px;
+    margin: 150px auto;
+    padding: 0 150px;
+}
+
+.your-donate-title {}
+
+.your-donate-banner img {
+    width: 600px;
+    height: 400px;
+}
+
+/* <!--
+            
+Get My Updates
+
+--> */
+.donate-form {
+
+    width: 809px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF4D6;
+}
+
+
+.search {
+    width: 275px;
+    height: 60px;
+    margin: 75px auto;
+}
+
+/* footer section  */
+
+.footer-section {
+    margin-top: 130px;
+    background-color: black;
+
+    height: 177px;
+}
+
+.footer-title {
+    color: #FF5959;
+    margin: 50px auto;
+
 }
